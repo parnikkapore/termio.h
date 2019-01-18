@@ -13,6 +13,7 @@ Clears the screen.
   
 #### `gotoxy(x, y)`
 Teleports the cursor to the specified location.
+
 | Variable | Type | Description |
 |----------|------|-------------|
 |x|number (starts at 1)|Horizontal position|
@@ -20,12 +21,14 @@ Teleports the cursor to the specified location.
   
 #### `textbackground(color)` / `setBkgColor(color)`
 Sets the background color.
+
 | Variable | Type | Description |
 |----------|------|-------------|
 |color     |number|Color (from [this table](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit))|
   
 #### `textcolor(color)` / `setTxtColor(color)`
 Sets the background color.
+
 | Variable | Type | Description |
 |----------|------|-------------|
 |color     |number|Color (from [this table](https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit))|
